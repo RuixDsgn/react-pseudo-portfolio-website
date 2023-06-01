@@ -7,8 +7,19 @@ a {
     padding: 15px;
 }
 
+p {
+    padding: 5px;
+}
+
 img {
     width: 200px;
+    height: 150px;
+}
+
+#about-img {
+    border-radius: 50px;
+    width: 200px;
+    height: 200px;
 }
 
 #about-me {
@@ -16,13 +27,69 @@ img {
     margin: auto;
 }
 
-#navbar-div, #form-div {
-    padding: 10px;
+header {
+    position: absolute;
+}
+
+#navbar {
+    position: relative;
+    float: right;
     margin: auto;
     width: 400px;
     height: auto;
-    border: 5px solid;
-    border-radius: 10px;
-    border-color:black;
 }
 
+#form-div {
+    padding: 10px;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.project-card {
+    margin: auto;
+    border: 2px solid;
+    border-radius: 10px;;
+    width: 250px;
+    height: 375px;
+}
+
+.project-card:hover {
+    box-shadow: 3px 3px 3px 3px;
+    transition-duration: .5s;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-gap: 70px;
+}
+
+.add-project {
+    margin: auto;
+    border: 2px solid;
+    border-radius: 10px;;
+    width: 250px;
+    height: 375px;
+}
+
+/* Dark Mode Toggle */
+
+#toggle-btn {
+    position: relative;
+}
+
+.light {
+    background-color: white;
+    color:black;
+    transition-duration: 1s;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+    transition-duration: 1s;
+}

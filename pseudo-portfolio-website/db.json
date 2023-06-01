@@ -1,19 +1,34 @@
-{
-  "posts": [
+{ 
+  "projects":  [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+        "id": 1,
+        "name": "The most comfortable shoes 👟 ever!",
+        "image": "https://cdn.dribbble.com/users/5029463/screenshots/11511001/media/6cb497ee008768b9177dfc03fce747ea.gif",
+        "description": "An e-commerce store that sells shoes made for comfortability any time of the day."
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+        "id": 2,
+        "name": "The introverts way",
+        "image": "https://media1.giphy.com/media/l3vQZHcGmwGHYxOyA/giphy.gif?cid=6c09b9526lb0oh504f8g6flolvq4j6hbkk69vel6hppt0aks&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+        "description": "An online dating app for introverts"
+    },
+    {
+        "id": 3,
+        "name": "Adopt-a-Pup",
+        "image": "https://cdn.dribbble.com/users/97870/screenshots/1916644/pup.gif",
+        "description": "A way to adopt pets online seamlessly"
+    },
+    {
+        "id": 4,
+        "name": "My To-do",
+        "image": "https://codemyui.com/wp-content/uploads/2017/11/Strike-Off-ToDo-List-Animation.gif",
+        "description": "A simple to-do list app for the ones on the go"
+    },
+    {
+        "id": 5,
+        "name": "Have another cup",
+        "image": "https://www.sliderrevolution.com/wp-content/uploads/2021/09/coffee_gif.gif",
+        "description": "A coffee shop website for coffee lovers"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
